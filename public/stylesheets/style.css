@@ -50,7 +50,7 @@ body {
 /* DEVELOPMENT PANE */
 
 #development {
-  background: linear-gradient( rgba(255, 255, 255, 1),  rgba(0, 0, 83, 0.47)), url('../images/water.jpg');
+  background: linear-gradient( rgba(255, 255, 255, 1),  rgba(0, 0, 83, 0.47));
   height: 100vh;
   padding-top: 75px;
   overflow: hidden;
