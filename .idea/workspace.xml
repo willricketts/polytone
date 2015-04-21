@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.904762">
-              <caret line="96" column="52" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.63380283">
+              <caret line="104" column="156" selection-start-line="104" selection-start-column="156" selection-end-line="104" selection-end-column="156" />
               <folding />
             </state>
           </provider>
@@ -55,16 +55,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7741935">
-              <caret line="125" column="13" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="102" column="15" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
               <folding>
                 <element signature="e#201#952#2" expanded="true" />
                 <element signature="e#2143#2894#2" expanded="true" />
                 <element signature="e#4494#5245#2" expanded="true" />
-                <element signature="e#6276#7027#2" expanded="true" />
+                <element signature="e#6204#6955#2" expanded="true" />
+                <element signature="e#7903#8654#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,8 +95,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/javascripts/behaviors.js" />
         <option value="$PROJECT_DIR$/public/javascripts/vidbg.js" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
   </component>
@@ -368,7 +369,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429641597966</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fixing gradients">
+      <created>1429643035824</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1429643035824</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -420,7 +427,8 @@
     <MESSAGE value="beautifying info panes" />
     <MESSAGE value="adding images" />
     <MESSAGE value="water sucks" />
-    <option name="LAST_COMMIT_MESSAGE" value="water sucks" />
+    <MESSAGE value="fixing gradients" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing gradients" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -451,7 +459,8 @@
             <element signature="e#201#952#2" expanded="true" />
             <element signature="e#2143#2894#2" expanded="true" />
             <element signature="e#4494#5245#2" expanded="true" />
-            <element signature="e#6276#7027#2" expanded="true" />
+            <element signature="e#6204#6955#2" expanded="true" />
+            <element signature="e#7903#8654#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -545,24 +554,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.904762">
-          <caret line="96" column="52" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7741935">
-          <caret line="125" column="13" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="15" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
           <folding>
             <element signature="e#201#952#2" expanded="true" />
             <element signature="e#2143#2894#2" expanded="true" />
             <element signature="e#4494#5245#2" expanded="true" />
-            <element signature="e#6276#7027#2" expanded="true" />
+            <element signature="e#6204#6955#2" expanded="true" />
+            <element signature="e#7903#8654#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63380283">
+          <caret line="104" column="156" selection-start-line="104" selection-start-column="156" selection-end-line="104" selection-end-column="156" />
+          <folding />
         </state>
       </provider>
     </entry>
