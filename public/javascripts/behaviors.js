@@ -49,11 +49,13 @@ $(document).ready(function() {
       data: data
     }, function(result) {
       if(data == { status: 'success' }) {
-        return false;
+
       }
       else {
         alert('There was a problem');
+
       }
     });
+    return false;
   });
 });
