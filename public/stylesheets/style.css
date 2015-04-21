@@ -173,3 +173,7 @@ form label {
 input {
   color: #777;
 }
+
+#messageField {
+  height: 250px;
+}
