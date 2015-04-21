@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c59a6a4b-1ce4-4356-9ff9-ff8832c12cfe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/soa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="polytone.iws" />
@@ -37,8 +37,8 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13872832">
-              <caret line="69" column="83" selection-start-line="69" selection-start-column="83" selection-end-line="69" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.833526">
+              <caret line="167" column="9" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -386,7 +386,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429644743608</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="image">
+      <created>1429644800233</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1429644800233</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -441,7 +447,8 @@
     <MESSAGE value="fixing gradients" />
     <MESSAGE value="adding copy" />
     <MESSAGE value="first draft of development body copy" />
-    <option name="LAST_COMMIT_MESSAGE" value="first draft of development body copy" />
+    <MESSAGE value="image" />
+    <option name="LAST_COMMIT_MESSAGE" value="image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -583,8 +590,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13872832">
-          <caret line="69" column="83" selection-start-line="69" selection-start-column="83" selection-end-line="69" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.833526">
+          <caret line="167" column="9" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
           <folding />
         </state>
       </provider>
