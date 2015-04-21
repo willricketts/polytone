@@ -41,34 +41,42 @@ app.post('/contact', function(req, res, next) {
   if(!b.email) {
     errors.push('missingEmail');
   }
-
-  if(!validator.isEmail(b.email)) {
+  else if(!validator.isEmail(b.email)) {
     errors.push('invalidEmail');
   }
 
-  if(!message) {
+  if(!b.message) {
     errors.push('missingMessage');
   }
 
   if(errors.length > 0) {
+    console.log(errors);
     res.send(JSON.stringify({ errors: errors }));
   }
   else {
     var message = {
       "text": b.message,
-      "subject": 'New contract inquiry: ' + b.name + ' | ' + b.email,
+      "subject": '*** New contract inquiry: ' + b.name + ' | ' + b.email + ' ***',
       "from_email": b.email,
+      "from_name": "Polytone Contact Form",
+      "to": [{
+        "email": process.env.contact_form_recipient_email,
+        "name": process.env.contact_form_sender_name,
+        "type": "to"
+      }],
       "headers": {
         "Reply-To": b.email
       }
-    }
+    };
 
-    mandrill_client.messages.send({ "message": message }, function(result) {
+    mandrillClient.messages.send({ "message": message }, function(result) {
       if(!result) {
-        //meh
+        console.log('failed');
       }
-
-      res.send('success');
+      else {
+        console.log(result);
+        res.send('success');
+      }
     });
   }
 });

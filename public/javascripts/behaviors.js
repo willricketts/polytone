@@ -43,13 +43,15 @@ $(document).ready(function() {
   $('#contactSubmit').click(function() {
 
     var name = $("#nameField").val();
+    var email = $("#emailField").val();
     var phone = $("#phoneField").val();
-    var message = $("#messageField").val();
+    var message = $("#messageField").text();
 
     var data = {
       name: name,
       phone: phone,
-      message: message
+      message: message,
+      email: email
     };
 
     $.ajax({
