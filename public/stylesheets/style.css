@@ -158,4 +158,18 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-8 */
   color: #F1F1F1;
   height: 100vh;
+
+  padding-top: 50px;
+}
+
+#contactForm {
+
+}
+
+form label {
+  color: #fff;
+}
+
+input {
+  color: #777;
 }
