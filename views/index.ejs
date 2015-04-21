@@ -18,6 +18,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="../javascripts/behaviors.js"></script>
+  <script src="../javascripts/jquery.validate.min.js"></script>
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -154,14 +155,18 @@
           We're more than happy to use the languages and technologies of your choice. We've got a pretty big comfort zone. Give us an idea of what you'd like to start working on, and we'll reach out to get things rolling.</p>
       </div>
       <div id="contactForm">
-        <form>
-          <div class="six columns">
-            <label for="emailField">Email:</label>
+        <form id="contact">
+          <div class="four columns">
+            <label for="emailField">Name</label>
             <input class="u-full-width" type="text" name="name" placeholder="Dr. Strangelove" id="nameField">
           </div>
-          <div class="six columns">
-            <label for="phoneField">Phone:</label>
-            <input class="u-full-width" type="email" name="email" placeholder="+1 555-555-5555" id="phoneField">
+          <div class="four columns">
+            <label for="phoneField">Email</label>
+            <input class="u-full-width" type="email" name="email" placeholder="doctor@strangelove.com" id="phoneField">
+          </div>
+          <div class="four columns">
+            <label for="name">Phone</label>
+            <input class="u-full-width" type="email" name="phone" placeholder="+1 281-330-8004" id="phoneField">
           </div>
           <div class="twelve columns">
             <label for="message">Message</label>

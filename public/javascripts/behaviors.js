@@ -1,7 +1,13 @@
 $(document).ready(function() {
 
+  // ELEMENT SETUP
+
   $('#hello').hide();
   $("#hello").fadeIn(1000);
+
+
+
+  // NAV CLICK-SCROLL BEHAVIORS
 
   $('#developmentNav').click(function() {
     $('html, body').animate({
@@ -31,6 +37,9 @@ $(document).ready(function() {
     return false;
   });
 
+
+  //CONTACT FORM SUBMIT
+
   $('#contactSubmit').click(function() {
 
     var name = $("#nameField").val();
@@ -53,7 +62,6 @@ $(document).ready(function() {
       }
       else {
         alert('There was a problem');
-
       }
     });
     return false;

@@ -7,6 +7,10 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var contact = require('./routes/contact');
+var mandrill = require('mandrill-api/mandrill');
+var mandrillClient = new mandrill.Mandrill(process.env.mandrill_key);
+var validator = require('validator');
 
 var app = express();
 
@@ -24,6 +28,50 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+
+app.post('/contact', function(req, res, next) {
+  var b = req.body;
+  var errors = [];
+  console.log(b);
+
+  if(!b.name) {
+    errors.push('missingName');
+  }
+
+  if(!b.email) {
+    errors.push('missingEmail');
+  }
+
+  if(!validator.isEmail(b.email)) {
+    errors.push('invalidEmail');
+  }
+
+  if(!message) {
+    errors.push('missingMessage');
+  }
+
+  if(errors.length > 0) {
+    res.send(JSON.stringify({ errors: errors }));
+  }
+  else {
+    var message = {
+      "text": b.message,
+      "subject": 'New contract inquiry: ' + b.name + ' | ' + b.email,
+      "from_email": b.email,
+      "headers": {
+        "Reply-To": b.email
+      }
+    }
+
+    mandrill_client.messages.send({ "message": message }, function(result) {
+      if(!result) {
+        //meh
+      }
+
+      res.send('success');
+    });
+  }
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
