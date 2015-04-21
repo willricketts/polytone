@@ -170,6 +170,7 @@ body {
   color: #F1F1F1;
   height: 100vh;
   padding-top: 50px;
+  height: auto;
 }
 
 #getStarted {
