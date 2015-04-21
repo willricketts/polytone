@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c59a6a4b-1ce4-4356-9ff9-ff8832c12cfe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/behaviors.js" afterPath="$PROJECT_DIR$/public/javascripts/behaviors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="polytone.iws" />
@@ -37,33 +38,34 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.333334">
-              <caret line="162" column="109" selection-start-line="162" selection-start-column="109" selection-end-line="162" selection-end-column="109" />
+            <state vertical-scroll-proportion="-35.47619">
+              <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="behaviors.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="behaviors.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/behaviors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79909706">
-              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="150" column="154" selection-start-line="150" selection-start-column="154" selection-end-line="150" selection-end-column="154" />
+            <state vertical-scroll-proportion="0.3363431">
+              <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
               <folding>
                 <element signature="e#201#952#2" expanded="true" />
                 <element signature="e#2143#2894#2" expanded="true" />
-                <element signature="e#4494#5245#2" expanded="true" />
-                <element signature="e#6204#6955#2" expanded="true" />
+                <element signature="e#4523#5274#2" expanded="true" />
+                <element signature="e#6282#7033#2" expanded="true" />
+                <element signature="e#8036#8787#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,9 +94,9 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/javascripts/vidbg.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/behaviors.js" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/public/javascripts/behaviors.js" />
       </list>
     </option>
   </component>
@@ -409,7 +411,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429650063622</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="contact form fix">
+      <created>1429650240573</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1429650240573</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -468,7 +476,8 @@
     <MESSAGE value="added analytics" />
     <MESSAGE value="added first bit of contact form" />
     <MESSAGE value="quick style change" />
-    <option name="LAST_COMMIT_MESSAGE" value="quick style change" />
+    <MESSAGE value="contact form fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact form fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -498,8 +507,9 @@
           <folding>
             <element signature="e#201#952#2" expanded="true" />
             <element signature="e#2143#2894#2" expanded="true" />
-            <element signature="e#4494#5245#2" expanded="true" />
-            <element signature="e#6204#6955#2" expanded="true" />
+            <element signature="e#4523#5274#2" expanded="true" />
+            <element signature="e#6282#7033#2" expanded="true" />
+            <element signature="e#8036#8787#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -585,32 +595,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/behaviors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.333334">
-          <caret line="162" column="109" selection-start-line="162" selection-start-column="109" selection-end-line="162" selection-end-column="109" />
+        <state vertical-scroll-proportion="-35.47619">
+          <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="154" selection-start-line="150" selection-start-column="154" selection-end-line="150" selection-end-column="154" />
+        <state vertical-scroll-proportion="0.3363431">
+          <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
           <folding>
             <element signature="e#201#952#2" expanded="true" />
             <element signature="e#2143#2894#2" expanded="true" />
-            <element signature="e#4494#5245#2" expanded="true" />
-            <element signature="e#6204#6955#2" expanded="true" />
+            <element signature="e#4523#5274#2" expanded="true" />
+            <element signature="e#6282#7033#2" expanded="true" />
+            <element signature="e#8036#8787#2" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/behaviors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79909706">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
